@@ -6,10 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SCORE BOARD</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="CSS/styles.css" type="text/css">
+    <script src="JS/jquery-3.3.1.js"></script>
+    <script src="JS/dice.js"></script>
+
 </head>
 
-<body>
-
+<body class="g">
+    <div class="k">
+        <div class="card-group">
+                <div class="col-md-6">
+                    <div class="table">
+                        <div class="card-image">
+                            <h2>Player 1:</h2>
+                            <p id="namep1"></p>
+                            <img alt="prof" id="img" src="images/prof.png">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="col-md-6">
+                    <div class="table">
+                        <div class="card-image">
+                            <h2>Player 2:</h2>
+                            <p id="namep2"></p>
+                            <img alt="prof" id="img" src="images/prof.png">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        
 
     <script src="JS/dice.js"></script>
     <script src="CSS/styles.css"></script>
@@ -17,11 +49,10 @@
     <script src="JS/jquery-3.3.1.js"></script>
     <script src="DICE/dice.html"></script>
 
-    <form class="jsForm">
-        <footer>
-            <button onclick="window.location.href='dice.html'" id="dice.html">BACK</button>
-        </footer>
-    </form>
+    <div class="me">
+            <button class="btn btn-danger" onclick="window.location.href='dice.html'" id="dice.html">BACK</button>
+</div>
+
 </body>
 
 </html>
