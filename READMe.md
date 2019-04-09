@@ -14,10 +14,10 @@ This app has a leisure time game which involves rolling dices and whoever hit a 
 
 
 ## BDD
-|  BEHAVIOUR                         |     INPUT                                |      OUTPUT                  |
-|------------------------------------| :-------------------------------------- :|..............................|
+|  BEHAVIOUR                     |     INPUT                          |      OUTPUT               |
+|--------------------------------|:----------------------------------:|---------------------------|
 |Input players names | Player1, Player2 | Names |
-|Click New Game to start playing | player1Dice>1 | currentscore += player1Dice |
+|Click New Game to start playing | player1Dice>1 * | currentscore += player1Dice |
 |Click New Game to start playing | player1Dice === 1 | currentscore = 0 |
 |click hold | score === 100 | "SPLENDID!!! You have won the game!Your score is" + score |
 
