@@ -1,5 +1,5 @@
 h1 {
-  background-image: url('/images/dice.jpg');
+  background-image: url('../images/dice.jpg');
   text-align: center;
   color: yellowgreen;
   height: 20rem;
@@ -8,4 +8,14 @@ h1 {
   background-position: 1;
 }
 
-  @media screen 
+.where {
+  text-align: center;
+}
+
+.moo{
+  text-align: center;
+}
+
+.btn{
+  text-align: center;
+}

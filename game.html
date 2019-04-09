@@ -9,21 +9,36 @@
 </head>
 
 <body>
+    <div class="container">
 
-    <div class="input container">
-        <div class="row">
-            <div class="col-md-6">
-                <input type="text" placeholder="Name Player1" id="Player1">
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <input type="text" placeholder="Name Player2" id="Player2">
-            </div>
-        </div>
-
+        <h3>The first person to attain 100points surely becomes the game winner.</h3>
+        <h1>LET'S START!!</h1>
     </div>
+
+    <div class="card-group">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-image">
+                    <h1>Player 1:</h1>
+                    <p id="namep1"></p><img alt="prof" id="img" src="images/prof.png">
+                    <p id="return1"></p><button id="btn1" name="button" type="button">DICE ROLL</button> <button
+                        id="btn2" name="button" type="button">HOLD SCORE</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-image">
+                    <h1>player 2:</h1>
+                    <p id="namep2"></p><img alt="prof" id="img" src="images/prof.png">
+                    <p id="return2"></p><button id="btn3" name="button" type="button">DICE ROLL</button> <button
+                        id="btn4" name="button" type="button">HOLD SCORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
     <script src="JS/dice.js"></script>
@@ -32,16 +47,11 @@
     <script src="JS/jquery-3.3.1.js"></script>
     <script src="DICE/dice.html"></script>
 
-    <div class="j">
-        <input type="submit" value="REFRESH" onClick="document.location.reload(true)">
-    </div>
+    <input type="submit" value="REFRESH" onClick="document.location.reload(true)">
 
-    <form class="jsForm">
-        <footer>
-            <button onclick="window.location.href='dice.html'">BACK</button>
 
-        </footer>
-    </form>
+    <button onclick="window.location.href='dice.html'">BACK</button>
+
 
 
 </body>
