@@ -22,7 +22,7 @@ function on() {
 
 $(document).ready(function (event) {
     $(".btn").click(function () {
-        $(".game").show();
+    
         var player1 = new Player(this.player = $("#plyr1").val(), this.players = $("#plyr2").val());
         var player2 = new Player(this.player = $("#plyr2").val(), this.players = $("#plyr1").val());
 
@@ -48,7 +48,7 @@ $(document).ready(function (event) {
 
             score += currentscore
             if (score === 100) {
-                document.getElementById('return1').innerHTML = "congratulations You have won!Your score is" + score
+                document.getElementById('return1').innerHTML = "SPLENDID!!! You have won the game!Your score is" + score
 
             } else {
                 currentscore = 0
@@ -76,7 +76,7 @@ $(document).ready(function (event) {
     
             score += currentscore
             if (score === 100) {
-                document.getElementById('return2').innerHTML = "congratulations You have won!Your score is" + score
+                document.getElementById('return2').innerHTML = "SPLENDID!!! You have won the game!Your score is" + score
     
             } else {
                 currentscore = 0
