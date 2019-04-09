@@ -50,8 +50,8 @@ $(document).ready(function (event) {
         score =score + currentscore;
         document.getElementById('return1').innerHTML = score
         if (score >99) {
-            document.getElementById('return1').innerHTML = "SPLENDID!!! You have won the game!Your score is" + score
-            alert("hgfdfgggf")
+            document.getElementById('return1').innerHTML = "SPLENDID!!! You have won the game!Your score is " + score
+            alert("NIIICCCEEEE..... Press okay for your comment.")
             currentscore = 0
 
         } else {
@@ -80,7 +80,7 @@ $(document).ready(function (event) {
         score2 = score2 + currentscore2
         document.getElementById('return2').innerHTML = score2
         if (score2 >99) {
-            document.getElementById('return2').innerHTML = "SPLENDID!!! You have won the game!Your score is" + score2
+            document.getElementById('return2').innerHTML = "SPLENDID!!! You have won the game!Your score is " + score2
             currentscore2 = 0
         } else {
             currentscore2 = 0
