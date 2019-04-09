@@ -1,13 +1,15 @@
 # CLARAY'S DICE PALOUR
-#### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
+#### A pig dice game that one input the name of the player and start rolling, {5th APRIL 2019}
+#### By **CLARAY**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+This app has a leisure time game which involves rolling dices and whoever hit a score of 100 first... gets the honors of wining the game and becomes ther apparent time champion.
 ## Setup/Installation Requirements
 * Git must be installed in your computer, if not use the following command in your terminal ($ sudo apt install git-all)
 * Then open another page on terminal
 * Use this command ($ git clone https://.github.io/pig-dice/)
-This will clone the repository to your local folder
+* This will clone the repository to your local folder
+## BDD
+
 ## Known Bugs
 No any bugs so far, please let me know if you run into any bug/s using the provided contacts below .
 ## Technologies Used
