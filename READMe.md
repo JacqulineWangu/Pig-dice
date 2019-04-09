@@ -9,7 +9,7 @@ This app has a leisure time game which involves rolling dices and whoever hit a 
 ## Setup/Installation Requirements
 * Git must be installed in your computer, if not use the following command in your terminal ($ sudo apt install git-all)
 * Then open another page on terminal
-* Use this command ($ git clone https://JacqulineWangu.github.io/pig-dice/)
+* Use this command ($ git clone https://JacqulineWangu.github.io/Pig-dice/)
 * This will clone the repository to your local folder
 
 
